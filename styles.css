@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+
+html{
+  height: 100vh;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: #324e63;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6944ff;
+}
+figure{
+  display: flex;
+}
+main>figure>img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 30px auto;
+  font-weight: 700;
+  font-size: 27px;
+}
+main{
+  background-color: #fff;
+  box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+  border-radius: 14px;
+  padding: 40px 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+main>.info>h1{
+  font-weight: 700;
+  font-size: 24px;
+  color: #6944ff;
+  text-align: center;
+}
+main>.info>p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #324e63;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+main>.info>h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+main>.info>h2>img{
+  width: 15%;
+}
+.stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.stats>p{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 150px;
+}
+.numero{
+  font-weight: 700;
+  font-size: 27px;
+}
+.numero>span{
+  font-weight: 500;
+  font-size: initial;
+  margin-top: 7px;
+}
+.redes{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.redes>img{
+  margin-left: 10px;
+}
+.redes>.ajustar{
+  height: 60px;
+}
+button{
+  border:none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  margin: 55px 35px 15px 35px;
+  padding: 15px 40px;
+  color: #fff;
+  background-color: #d5135a;
+  border-radius: 50px;
+  width: 201px;
+  height: 55px;
+  align-self: center;
+}
